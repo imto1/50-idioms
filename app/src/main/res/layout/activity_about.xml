@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.behmerd.fiymk.AboutActivity"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CLayout"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="50 Idioms You Must Know"
+                android:id="@+id/tvTitle"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Stuff You Must Know Series"
+                android:id="@+id/tvSerie"
+                android:layout_alignBottom="@+id/tvGT1"
+                android:layout_alignLeft="@+id/tvGT1"
+                android:layout_alignStart="@+id/tvGT1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/ivBrand"
+                android:src="@drawable/behmerd"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Software Development Group"
+                android:id="@+id/tvG"
+                android:layout_below="@+id/tvSerie"
+                android:layout_alignRight="@+id/tvSerie"
+                android:layout_alignEnd="@+id/tvSerie"
+                android:textStyle="italic"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="www.behmerd.com"
+                android:id="@+id/tvSite"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtGM"
+                android:text="support@behmerd.com"
+                android:layout_alignTop="@+id/tvDADTitle"
+                android:layout_toRightOf="@+id/tvDADTitle"
+                android:layout_toEndOf="@+id/tvDADTitle"
+                android:textColor="#000000"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Content: Mohsen Shabankareh"
+                android:id="@+id/tvCTitle"
+                android:layout_below="@+id/tvG"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="50dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="mohsen.shabankareh@gmail.com"
+                android:id="@+id/tvMSKM"
+                android:layout_above="@+id/tvDADTitle"
+                android:layout_toRightOf="@+id/tvCTitle"
+                android:layout_toEndOf="@+id/tvCTitle"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Design &amp; Develop: S.Vahid Hosseini"
+                android:id="@+id/tvDADTitle"
+                android:layout_below="@+id/tvCTitle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/tvSVHM"
+                android:text="s.vahid.h@outlook.com"
+                android:layout_alignTop="@+id/tvDADTitle"
+                android:layout_toRightOf="@+id/tvDADTitle"
+                android:layout_toEndOf="@+id/tvDADTitle"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+</ScrollView>

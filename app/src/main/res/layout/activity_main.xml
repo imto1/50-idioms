@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.behmerd.fiymk.MainActivity"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ff0078ff"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:id="@+id/rlTitleBar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/lblTitle"
+                android:layout_gravity="left|center"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="26dp"
+                android:text="@string/app_name" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlTitleBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/llChoices">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Lessons"
+                android:id="@+id/lblLesson"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Favorites"
+                android:id="@+id/lblFavorites"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Help"
+                android:id="@+id/lblHelp"
+                android:layout_below="@+id/lblLesson"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="About"
+                android:id="@+id/lblAbout"
+                android:layout_below="@+id/lblHelp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Quit"
+                android:id="@+id/lblQuit"
+                android:layout_below="@+id/lblAbout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disable Ads!"
+                android:id="@+id/btnBuy"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#007700"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/mobileBanner"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp">
+        </FrameLayout>
+
+</RelativeLayout>

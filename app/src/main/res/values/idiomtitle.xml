@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="idiomTitle">
+        <item name="i1">Call it a day/night</item>
+        <item name="i2">Out of the blue</item>
+        <item name="i3">Come on</item>
+        <item name="i4">Beat around the bush</item>
+        <item name="i5">Make ends meet</item>
+        <item name="i6">Clear the air</item>
+        <item name="i7">Early Bird</item>
+        <item name="i8">Flesh and blood</item>
+        <item name="i9">In cold blood</item>
+        <item name="i10">Get to the bottom of something</item>
+        <item name="i11">Bread and butter</item>
+        <item name="i12">Give me a break</item>
+        <item name="i13">Enough is enough</item>
+        <item name="i14">Hang out</item>
+        <item name="i15">Get something off your chest</item>
+        <item name="i16">Makes someone\'s day</item>
+        <item name="i17">As a matter of fact</item>
+        <item name="i18">For that matter</item>
+        <item name="i19">Better off</item>
+        <item name="i20">Come up with</item>
+        <item name="i21">To make sense</item>
+        <item name="i22">More or less</item>
+        <item name="i23">Run into (Something or Somebody)</item>
+        <item name="i24">Shape up or ship out</item>
+        <item name="i25">Easier said than done</item>
+        <item name="i26">Steal someone\'s thunder</item>
+        <item name="i27">When pigs fly</item>
+        <item name="i28">Costs an arm and a leg</item>
+        <item name="i29">(To) get the ball rolling</item>
+        <item name="i30">(To) have a heart of gold</item>
+        <item name="i31">(To) lose one\'s touch</item>
+        <item name="i32">Get it out of your system</item>
+        <item name="i33">Pull yourself together</item>
+        <item name="i34">Go down in flames</item>
+        <item name="i35">Easy come, easy go</item>
+        <item name="i36">Speak of the devil</item>
+        <item name="i37">Once in a blue moon</item>
+        <item name="i38">To feel under the weather</item>
+        <item name="i39">Miss the boat</item>
+        <item name="i40">Scratch someone’s back</item>
+        <item name="i41">Pull someone\'s leg</item>
+        <item name="i42">Break a leg</item>
+        <item name="i43">A piece of cake</item>
+        <item name="i44">Let the cat out of the bag</item>
+        <item name="i45">To hit the nail on the head</item>
+        <item name="i46">The last Straw</item>
+        <item name="i47">Hit the books</item>
+        <item name="i48">Best of both worlds</item>
+        <item name="i49">Ditch someone</item>
+        <item name="i50">Nailed it</item>
+    </string-array>
+</resources>
